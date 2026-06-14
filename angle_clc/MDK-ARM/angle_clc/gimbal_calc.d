@@ -46,4 +46,5 @@ angle_clc/gimbal_calc.o: ..\angle_clcgroup\TASK\gimbal_calc.c \
   ..\angle_clcgroup\APP\struct_typedef.h \
   ..\angle_clcgroup\TASK\gimbal_calc.h ..\angle_clcgroup\APP\pid.h \
   ..\angle_clcgroup\TASK\CAN_receive.h \
-  ..\angle_clcgroup\TASK\chassiss_calc.h
+  ..\angle_clcgroup\TASK\chassiss_calc.h \
+  ..\angle_clcgroup\TASK\FSM_task.h

@@ -70,4 +70,6 @@ angle_clc/fsm_task.o: ..\angle_clcgroup\TASK\FSM_task.c \
   ..\angle_clcgroup\APP\remote_control.h ..\angle_clcgroup\BSP\bsp_rc.h \
   ..\angle_clcgroup\TASK\chassiss_calc.h ..\angle_clcgroup\APP\pid.h \
   ..\angle_clcgroup\TASK\INS_Task.h \
-  ..\angle_clcgroup\Drvs\bmi088driver.h
+  ..\angle_clcgroup\Drvs\bmi088driver.h \
+  ..\angle_clcgroup\TASK\gimbal_calc.h \
+  ..\angle_clcgroup\TASK\CAN_receive.h

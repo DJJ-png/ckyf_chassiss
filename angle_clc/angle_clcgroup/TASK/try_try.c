@@ -9,11 +9,13 @@
 extern osThreadId try_tryHandle;
 uint8_t flag;
 extern current_f current;
+extern fp32 current_gimbal;
 void Try_Try(void const * argument){
 
 	while(1){
-			if(flag){
-			CAN_CMD_BASE(&hcan1,0x200,current.current_0,current.current_1,-1*current.current_2,current.current_3);
+			if(1){
+			CAN_CMD_BASE(&hcan1,0x200,current.current_0,current.current_1,current.current_2,current.current_3);
+			CAN_CMD_BASE(&hcan1,0x1FF,current_gimbal,0,0,0);
 			}
 		  vTaskDelay(5);
 			 
